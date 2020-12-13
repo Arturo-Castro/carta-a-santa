@@ -57,7 +57,7 @@ function validacionFormulario(event){
     if (esExito){
         document.querySelector('#exito').className='';
         $form.className='oculto';
-        setTimeout(function(){window.location.href='file:///C:/Users/Castr/GitHub/tarea8/tarea%20-%20carta%20a%20santa/wishlist.html'}, 5000); 
+        setTimeout(function(){window.location.href='file:///C:/Users/Castr/GitHub/carta-a-santa/wishlist.html'}, 5000); 
     }
 
     event.preventDefault();
