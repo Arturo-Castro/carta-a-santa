@@ -57,7 +57,7 @@ function validacionFormulario(event){
     if (esExito){
         document.querySelector('#exito').className='';
         $form.className='oculto';
-        setTimeout(function(){window.location.href='file:///C:/Users/Castr/GitHub/carta-a-santa/wishlist.html'}, 5000); 
+        setTimeout(function(){window.location.href='https://github.com/Arturo-Castro/carta-a-santa/blob/gh-pages/wishlist.html'}, 5000); 
     }
 
     event.preventDefault();
